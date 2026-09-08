@@ -1,0 +1,3 @@
+singer = "justin bieber"
+print(singer)
+print(f"{singer.title()} is the best singer!")
