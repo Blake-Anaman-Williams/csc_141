@@ -1,0 +1,13 @@
+
+# Player 1 attributes
+waterboy_charisma = 8
+waterboy_strenght = True
+
+# Monster attributes
+icegirl_charisma = 8
+icegirl_strenght = False
+
+if waterboy_strenght != icegirl_strenght:
+    # print ("Waterboy is stronger than Icegirl")
+    print ("Told you its true")
+    
