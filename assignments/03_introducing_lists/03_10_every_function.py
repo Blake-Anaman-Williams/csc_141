@@ -1,30 +1,30 @@
-Colors = ['Red', 'Blue', 'Green', 'Yellow', 'Purple']
+colors = ['Red', 'Blue', 'Green', 'Yellow', 'Purple']
 
-print(Colors[0])
+print(colors[0])
 
-Colors[0] = 'Orange'
-print(Colors[0])
+colors[0] = 'Orange'
+print(colors[0])
 
-Colors.insert(0, 'Tourquoise')
-print(Colors[0])
+colors.insert(0, 'Tourquoise')
+print(colors[0])
 
-Colors.append('White')
-print(Colors)
+colors.append('White')
+print(colors)
 
-Removed_color = Colors.pop()
+Removed_color = colors.pop()
 print(Removed_color)
-print(Colors)
+print(colors)
 
-del Colors[0]
-print(Colors)
+del colors[0]
+print(colors)
 
 colors.sort()
-print(Colors)
+print(colors)
 
 colors.reverse()
-print(Colors)
+print(colors)
 
 colors.sort(reverse=True)
-print(Colors)
+print(colors)
 
-print(len(Colors))
+print(len(colors))

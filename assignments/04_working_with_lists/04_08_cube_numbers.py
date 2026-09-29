@@ -2,6 +2,7 @@
 this puts valuse into cubes
 """
 
-Cubes = list(range(1,11))
-for Cubes in Cubes:
-    print(Cubes**3)
+for cube in cubes:
+    print(cube**3)
+for cubes in cubes:
+    print(cubes**3)
