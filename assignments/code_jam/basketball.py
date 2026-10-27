@@ -6,8 +6,7 @@ pygame.init()
 
 screen = pygame.display.set_mode((960, 540))
 pygame.display.set_caption("Blake's Basketball")
-
-my_image = pygame.image.load("assignments/code_jam/media/ball.png")
+my_image = pygame.image.load("/csc_141/assignments/code_jam/media/ball.png")
 
 
 image_rect = my_image.get_rect()
