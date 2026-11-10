@@ -1,0 +1,9 @@
+
+
+def describe_city(city, country = 'Ghana'):
+    print(f'{city} is in {country}')
+
+describe_city("kiev", "Ukraine")
+describe_city("Accra")
+describe_city("Savannah")
+describe_city(country = "Ukraine", city = "Kiev")
